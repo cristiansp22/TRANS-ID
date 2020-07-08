@@ -147,10 +147,15 @@ main{
     background: -ms-linear-gradient(top);
     background: linear-gradient(to bottom);
     text-shadow: 2px 3 px 0 rgba(30, 30, 30, 0.2);
-    -moz-transition: color.3s ease-in, -moz-transform .3s ease-in;
+    -moz-transition: color.3s ease-in; 
+    -moz-transform: color.3s ease-in;
     -webkit-transition: color .3 ease-in;
     /* letra o */
-    -webkit-transform .3s ease-in; -o-transition: color .3 ease-in, -o-transform .3s ease-in; transition: color .3s ease-in, transform .3s ease-in;
+    -webkit-transform: color .3s ease-in; 
+    -o-transition: color .3s ease-in; 
+    -o-transform: color .3s ease-in; 
+    transition: color .3s ease-in; 
+    transform: color .3s ease-in;
 }
 .button.small{
     font-size: .9em;
