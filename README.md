@@ -1,2 +1,0 @@
-# TRANS-ID
-seila irmão
