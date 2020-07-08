@@ -291,4 +291,79 @@ div#linha2Conteudo{
     margin-right: auto;
 }
 /*--------------footer-----------*/
-div
+div#linha3{
+    width: 100%;
+    height: 500px;
+}
+div#linha3 #footer{
+    width: 980px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#linha2Conteudo[
+    padding-top: 15px;
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+]
+#linha2 figure img{
+    border: 8px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#footer_nav, #footer_comentarios, #form_nav{
+    width: 284px;
+    margin: 10px;
+    height: 400px;
+    padding: 10px;
+    float: left;
+}
+#footer_comentarios li{
+    margin-top: 15px;
+}
+#footer{
+    padding: 30px 0;
+}
+#footer .footer_title{
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #919191;
+}
+#footer form label{
+    display:block;
+    width: 100%;
+    margin: 0 0 18px 0;
+}
+#footer form label input{
+    width: 190px;
+    margin-top: 5px;
+    height: 15px;
+}
+#footer form label input, #footer form textarea{
+    color:#ffffff;
+    background-color: #333333;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    padding: 10px;
+}
+#footer form textarea{
+    width: 190px;
+    height: 120px;
+    resize:none;
+}
+#footer_nav ul li{
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #333333;
+}
+#copyright{
+    padding: 20px 0;
+    font-size: .85em;
+}
+#copyright p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
