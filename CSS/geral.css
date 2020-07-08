@@ -306,12 +306,12 @@ div#linha3 #footer{
     margin-left: auto;
     margin-right: auto;
 }
-#linha2Conteudo[
+#linha2Conteudo{
     padding-top: 15px;
     width: 980px;
     margin-right: auto;
     margin-left: auto;
-]
+}
 #linha2 figure img{
     border: 8px solid #ccc;
     border-radius: 10px;
@@ -372,3 +372,4 @@ div#linha3 #footer{
     padding: 0;
     text-align: center;
 }
+/*---------------------fm footer------------------*/
