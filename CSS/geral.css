@@ -372,4 +372,75 @@ div#linha3 #footer{
     padding: 0;
     text-align: center;
 }
-/*---------------------fm footer------------------*/
+/*---------------------pagina empresa.html------------------*/
+#conteudo{
+    width: 980px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#conteudo figure{
+    width: 980px;
+    height: 500px;
+    margin-top: 30px;
+}
+#conteudo figure img{
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+}
+#conteudo figure figcaption{
+    width: 650px;
+    float: left;
+}
+#conteudo figure figcaption h2{
+    margin: 15px;
+}
+#conteudo figure figcaption p{
+    text-align: justify;
+    line-height: 25px;
+}
+/*-----------------pagina servico.html-------------*/
+#conteudo figure figcaption li{
+    line-height: 40px;
+    list-style-image: url("../imagem/marcador.png");
+}
+/*----------------pagina cadastro.html--------------*/
+#conteudo form{
+    width: 790px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#conteudo form fieldset{
+    width: 350px;
+    height: 370px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    margin-left: 20px;
+}
+#conteudo form fieldset label{
+    width: 250px;
+    height: 60px;
+    float: left;
+    clear: left;
+    margin-left: 60px;
+}
+#conteudo form fieldset input{
+    width: 220px;
+    height: 25px;
+    border: 1px solid #ffffff;
+    background-color: #ccc;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+#conteudo form fieldset #sexo{
+    width: 30px;
+    vertical-align: middle;
+}
+#conteudo form #btEnviar, #btLimpar{
+    margin-top: 20px;
+    margin-left: 10px;
+    float: right;
+}
